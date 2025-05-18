@@ -1,0 +1,46 @@
+body {
+    margin: 0; padding: 0;
+    background: #f7f2e7 url('photo-1506968430777-bf7784a87f23.jfif') center/cover no-repeat;
+    font-family: 'Caveat', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background: #fffef5;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    border: 1px solid #ddd;
+    overflow: hidden;
+  }
+  textarea {
+    width: 100%; height: 100%;
+    border: none;
+    resize: none;
+    background: transparent;
+    font-size: 22px;
+    line-height: 1.4;
+    outline: none;
+    color: #3b2f1d;
+  }
+  canvas {
+    position: absolute;
+    top: 0; left: 0;
+    pointer-events: none;
+
+  }
+  #burnButton {
+    margin-top: 20px;
+    padding: 10px 25px;
+    font-size: 18px;
+    background: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    user-select: none;
+  }
